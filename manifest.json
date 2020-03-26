@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "I-Learn File Downloader",
+	"description":"Wow",
+	"version":"1.0",
+	"content_scripts":[{
+		"js": ["download.js"],
+		"matches": ["https://i-learn.uitm.edu.my/*"]
+	}],
+	"permissions": [
+		"activeTab"
+	],
+	"web_accessible_resources": ["download.js"]
+
+
+}
